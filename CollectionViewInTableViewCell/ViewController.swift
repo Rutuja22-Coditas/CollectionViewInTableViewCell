@@ -12,7 +12,7 @@ struct allData {
     let sectionTitle : String
     let imageGallery : [String]
 }
- var Product = [allData(sectionTitle: "Fashion Top Deals", imageGallery:["Cosmatic","watch","Shoes","Bag"]),allData(sectionTitle: "Mobile Top deals", imageGallery:["Cosmatic","watch","Shoes","Bag"])]
+ var Product = [allData(sectionTitle: "Fashion Top Deals", imageGallery:["Cosmatic","watch","Shoes","Bag"]),allData(sectionTitle: "Top Deals on Mobile", imageGallery:["iphone","One+","Realme","Samsung","Vivo"])]
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet weak var tableView: UITableView!
